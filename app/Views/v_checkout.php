@@ -8,7 +8,7 @@
         <?= form_input(['type' => 'hidden', 'name' => 'total_harga', 'id' => 'total_harga', 'value' => '']) ?>
         <div class="col-12">
             <label for="nama" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="nama" value="<?php echo session()->get('username'); ?>">
+            <input type="text" class="form-control" id="nama" value="<?php echo session()->get('username'); ?> " readonly>
         </div>
         <div class="col-12">
             <label for="alamat" class="form-label">Alamat</label>
